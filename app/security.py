@@ -4,7 +4,7 @@ import os
 import jwt
 from passlib.context import CryptContext
 
-SECRET_KEY = os.getenv("SECRET_KEY", "9ddc098ea9c3fd29aad543176872e4451ea4f36cafece848f63b8803b7a9526a")
+SECRET_KEY = os.getenv("SECRET_KEY", "dev-only-not-secret")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 15
 REFRESH_TOKEN_EXPIRE_DAYS = 7
